@@ -7,22 +7,22 @@ class Openkoi < Formula
   on_macos do
     on_arm do
       url "https://github.com/openkoi-ai/openkoi/releases/download/v#{version}/openkoi-macos-arm64.tar.gz"
-      sha256 "36452ec0ac76b81905fe74c585ad70cd49eaac4794b14bd1c869afde5860f717"
+      sha256 "97d531dc142523a7a28b131ac9e7d29aec734c78730881791f5a2df0be9b652c"
     end
     on_intel do
       url "https://github.com/openkoi-ai/openkoi/releases/download/v#{version}/openkoi-macos-x86_64.tar.gz"
-      sha256 "1ec8a5538408124ca91315723b832d53e1f30b985b87ac763c53a14d81d4f13d"
+      sha256 "fb7212b376839a2b620c91970adafae0e5537b19e8b7a41fdcabb2286e701c0d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/openkoi-ai/openkoi/releases/download/v#{version}/openkoi-linux-arm64.tar.gz"
-      sha256 "56402486cb7e39d1d6cfc1c85b8af7884b08cf5e9559824df29150b26c318dea"
+      sha256 "8dd11625918541e18708db3476290c7b5ce5aaa4c2ba19a47cfafab60d5e6b8c"
     end
     on_intel do
       url "https://github.com/openkoi-ai/openkoi/releases/download/v#{version}/openkoi-linux-x86_64.tar.gz"
-      sha256 "39d3b73fbedf2d0147b91640467e03b0421b4c8db4578e357a2fc3631b87ff60"
+      sha256 "aba02772d9149551f0546a1d7fb6799482f2af5ccdad4dac6efd8c7fe4ff70a3"
     end
   end
 
