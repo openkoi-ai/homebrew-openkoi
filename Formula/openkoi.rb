@@ -7,11 +7,11 @@ class Openkoi < Formula
   on_macos do
     on_arm do
       url "https://github.com/openkoi-ai/openkoi/releases/download/v#{version}/openkoi-macos-arm64.tar.gz"
-      sha256 "PLACEHOLDER"
+      sha256 "332e385d1b4cf946b9e39f7c6a847eea234f6f2cabf047fb5849cafc4a9449aa"
     end
     on_intel do
       url "https://github.com/openkoi-ai/openkoi/releases/download/v#{version}/openkoi-macos-x86_64.tar.gz"
-      sha256 "PLACEHOLDER"
+      sha256 "2863e4dee2ffde7100313c7c85604c87e59ed75bbecbe9d54aed90c4c918d075"
     end
   end
 
