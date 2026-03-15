@@ -1,28 +1,28 @@
 class Openkoi < Formula
   desc "Executive Function as a Service. AI agent that thinks before it acts."
   homepage "https://openkoi.ai"
-  version "2026.3.12"
+  version "2026.3.14"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/openkoi-ai/openkoi/releases/download/v#{version}/openkoi-macos-arm64.tar.gz"
-      sha256 "1eec0d2de0797015273b4bc00686e267bca116f33a9942ccbb312d0f722fe31f"
+      sha256 "c1db0c19f37448d878d972d884b91d21017dd9dec33b6614945189915f4c0ee7"
     end
     on_intel do
       url "https://github.com/openkoi-ai/openkoi/releases/download/v#{version}/openkoi-macos-x86_64.tar.gz"
-      sha256 "76630a2386fb591260941db99d17ed83755a882603937791d227b3964be02f0b"
+      sha256 "7b073ebac63a54f2db4c883cba793d8f94df3fad6e0e5ed56f4353678827c71d"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/openkoi-ai/openkoi/releases/download/v#{version}/openkoi-linux-arm64.tar.gz"
-      sha256 "dbc27f34dec57f9bda247c2d2d30af49728840f55b0bd05d796e4b101de384ef"
+      sha256 "47f2b2dff51c9037be8e3356fd3f04a9f6396f4353279caf9428b6ce35358de7"
     end
     on_intel do
       url "https://github.com/openkoi-ai/openkoi/releases/download/v#{version}/openkoi-linux-x86_64.tar.gz"
-      sha256 "c9826bcc68680c487193d55853a8d707294cd46c3421a79c42ce19b30a337a60"
+      sha256 "69515d6ac679ac65151bad74951e5f01cdffa7aa940e495fa0adf5fb2a32c394"
     end
   end
 
